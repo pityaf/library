@@ -1,0 +1,30 @@
+html {
+    position: relative;
+    min-width: 100%;
+}
+
+body {
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 1rem 1rem 1rem 0rem;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.insert-book {
+    display: flex;
+
+}
+.input {
+    display: flex;
+    flex-direction: column;
+}
