@@ -18,25 +18,30 @@
         <h1>My Library</h1>
     </header>
 
-    <body>
-        <form id="insert-book" class="insert-book">
-            <div class="input">
-                <label for="book">Book</label>
-                <input type="text" id="book" name="book">
+    <main>
+        <form action="" method="POST" id="insert-book" class="insert-book">
+            <div class="wrapper">
+                <div class="input">
+                    <label for="book">Book</label>
+                    <input type="text" id="book" name="book" required>
+                </div>
+                <div class="input">
+                    <label for="author">Author</label>
+                    <input type="text" id="author" name="author" required>
+                </div>
+                <div class="input">
+                    <label for="author">Status</label>
+                    <select name="author" id="author">
+                        <option value="read">Read</option>
+                        <option value="not-read">Not Read</option>
+                    </select>
+                </div>
             </div>
-            <div class="input">
-                <label for="author">Author</label>
-                <input type="text" id="author" name="author">
-            </div>
-            <div class="input">
-                <label for="author">Status</label>
-                <select name="author" id="author">
-                    <option value="read">Read</option>
-                    <option value="not-read">Not Read</option>
-                </select>
+            <div class="submit">
+                <input type="submit" value="add" />
             </div>
         </form>
-    </body>
+    </main>
     
     <footer></footer>
 </body>
