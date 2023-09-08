@@ -30,10 +30,10 @@
                     <input type="text" id="author" name="author" required>
                 </div>
                 <div class="input">
-                    <label for="author">Status</label>
-                    <select name="author" id="author">
-                        <option value="read">Read</option>
-                        <option value="not-read">Not Read</option>
+                    <label for="status">Status</label>
+                    <select name="status" id="status">
+                        <option value="Read">Read</option>
+                        <option value="Not read">Not Read</option>
                     </select>
                 </div>
             </div>
@@ -41,6 +41,22 @@
                 <input type="submit" value="add" />
             </div>
         </form>
+
+        <section class="display" id="display">
+            <table id="table">
+                <thead>
+                    <tr class="head">
+                        <th>Book</th>
+                        <th>Author</th>
+                        <th>Pages</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="library-table">
+
+                </tbody>
+            </table>
+        </section>
     </main>
     
     <footer></footer>
